@@ -95,6 +95,10 @@ Alignment  ──►  Tiling  ──►  Warp/Flow filter  ──►  DINO
 6. **YOLO Object Detection**: Conducts object detection on patches to identify significant changes.
 7. **Patch Saving**: Saves patches and metadata for further analysis.
 
+> **Note:** The YOLOv8 model weights (`yolov8m.pt`) are excluded from this repository due to size limits.  
+> Download them from [Ultralytics YOLOv8 releases](https://github.com/ultralytics/ultralytics)  
+> and place the file in `src/cd_pipeline/weights/` before running the YOLO filtering stage.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request with improvements or bug fixes. 
